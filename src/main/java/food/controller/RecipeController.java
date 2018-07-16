@@ -27,7 +27,7 @@ public class RecipeController
 
     @RequestMapping(path = "/recipes", produces = MediaType.APPLICATION_JSON_VALUE)
     public String sendList(){
-        recipeService.
+        return "hello";
     }
 
 
